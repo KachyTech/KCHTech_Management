@@ -1,20 +1,32 @@
 ﻿{
-  "id": "./",
-  "name": "KCHTech Management",
-  "short_name": "KCHTech",
-  "description": "KCHTech Management — Websites, apps, games and digital innovation.",
-  "start_url": "./index.html",
-  "scope": "./",
-  "display": "standalone",
-  "orientation": "portrait",
-  "background_color": "#10152f",
-  "theme_color": "#635bff",
-  "icons": [
-    {
-      "src": "./icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any"
-    }
-  ]
+    "id":  "./",
+    "name":  "KCHTech Management",
+    "short_name":  "KCHTech",
+    "description":  "KCHTech Management — Websites, apps, games and digital innovation.",
+    "start_url":  "./index.html",
+    "scope":  "./",
+    "display":  "standalone",
+    "orientation":  "portrait",
+    "background_color":  "#10152f",
+    "theme_color":  "#635bff",
+    "icons":  [
+                  {
+                      "purpose":  "any",
+                      "type":  "image/png",
+                      "sizes":  "192x192",
+                      "src":  "./icon-192.png"
+                  },
+                  {
+                      "purpose":  "any",
+                      "type":  "image/png",
+                      "sizes":  "512x512",
+                      "src":  "./icon-512.png"
+                  },
+                  {
+                      "purpose":  "any",
+                      "type":  "image/svg+xml",
+                      "sizes":  "any",
+                      "src":  "./icon.svg"
+                  }
+              ]
 }
