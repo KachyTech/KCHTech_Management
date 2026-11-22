@@ -887,3 +887,135 @@ button:focus-visible {
         transition-duration: .01ms !important;
     }
 }
+/* KORNECTT DOWNLOAD SECTION */
+
+.download-section {
+    position: relative;
+}
+
+.download-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+}
+
+.download-card {
+    position: relative;
+    padding: 38px;
+    border-radius: 28px;
+    background:
+        linear-gradient(145deg, rgba(37,99,235,.13), rgba(155,108,255,.09)),
+        var(--glass);
+    border: 1px solid var(--border);
+    backdrop-filter: blur(22px);
+    -webkit-backdrop-filter: blur(22px);
+    transition: transform .3s ease, border-color .3s ease;
+    overflow: hidden;
+}
+
+.download-card:hover {
+    transform: translateY(-7px);
+    border-color: rgba(0,234,255,.45);
+}
+
+.download-icon {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 38px;
+    border-radius: 22px;
+    margin-bottom: 24px;
+    background: rgba(255,255,255,.09);
+    border: 1px solid var(--border);
+}
+
+.download-platform {
+    display: inline-block;
+    color: var(--cyan);
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.download-card h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+
+.download-card p {
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.download-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 54px;
+    padding: 14px 20px;
+    border-radius: 14px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 22px;
+    transition: transform .25s ease;
+}
+
+.download-button:hover {
+    transform: translateY(-3px);
+}
+
+.download-card small {
+    display: block;
+    color: var(--muted);
+    margin-top: 17px;
+    font-size: 12px;
+}
+
+.iphone-steps {
+    padding-left: 22px;
+    color: var(--muted);
+    line-height: 2;
+    font-size: 14px;
+}
+
+.download-note {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    margin-top: 25px;
+    padding: 22px;
+    border-radius: 18px;
+    background: rgba(103,232,249,.07);
+    border: 1px solid rgba(103,232,249,.2);
+}
+
+.download-note p {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.download-note strong {
+    color: white;
+}
+
+@media (max-width: 768px) {
+
+    .download-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .download-card {
+        padding: 27px;
+    }
+
+    .download-card:hover {
+        transform: none;
+    }
+
+}

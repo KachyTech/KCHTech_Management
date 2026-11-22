@@ -1,0 +1,26 @@
+{
+  "id": "./kornectt.html",
+  "name": "Kornectt",
+  "short_name": "Kornectt",
+  "description": "Connect. Communicate. Share. Kornectt social platform.",
+  "start_url": "./kornectt.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#10152f",
+  "theme_color": "#635bff",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
