@@ -1,0 +1,409 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover KCHTech Management: our story, vision, mission, values, leadership and commitment to building meaningful digital experiences.">
+    <meta name="theme-color" content="#100d2b">
+    <title>Discover KCH | KCHTech Management</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .about-hero {
+            padding: 145px 8% 95px;
+            text-align: center;
+            background:
+                radial-gradient(ellipse at 15% 20%, rgba(0,234,255,.17), transparent 45%),
+                radial-gradient(ellipse at 85% 30%, rgba(155,108,255,.24), transparent 48%);
+        }
+
+        .about-hero h1 {
+            font-size: clamp(2.8rem, 7vw, 5rem);
+            margin: 20px 0;
+            background: linear-gradient(90deg, #00eaff, #b18aff, #ff65c5);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .about-hero p {
+            max-width: 760px;
+            margin: auto;
+            line-height: 1.9;
+            color: var(--muted);
+            font-size: 1.08rem;
+        }
+
+        .about-label {
+            color: var(--cyan);
+            letter-spacing: 3px;
+            font-size: .8rem;
+            font-weight: bold;
+        }
+
+        .about-section {
+            padding: 65px 8%;
+        }
+
+        .about-section-heading {
+            text-align: center;
+            max-width: 750px;
+            margin: 0 auto 40px;
+        }
+
+        .about-section-heading h2 {
+            font-size: clamp(1.8rem, 4vw, 2.7rem);
+            margin-bottom: 15px;
+        }
+
+        .about-section-heading p {
+            color: var(--muted);
+            line-height: 1.8;
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 22px;
+        }
+
+        .about-card {
+            background: linear-gradient(145deg, rgba(255,255,255,.09), rgba(255,255,255,.025));
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 30px;
+            backdrop-filter: blur(15px);
+            transition: transform .3s ease, border-color .3s ease;
+        }
+
+        .about-card:hover {
+            transform: translateY(-6px);
+            border-color: rgba(0,234,255,.5);
+        }
+
+        .about-card .about-icon {
+            font-size: 2rem;
+            margin-bottom: 18px;
+        }
+
+        .about-card h3 {
+            margin-bottom: 12px;
+            color: var(--text);
+        }
+
+        .about-card p {
+            color: var(--muted);
+            line-height: 1.8;
+            font-size: .95rem;
+        }
+
+        .about-story {
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .about-story p {
+            color: var(--muted);
+            line-height: 2;
+            font-size: 1.02rem;
+        }
+
+        .about-founder {
+            max-width: 850px;
+            margin: auto;
+            text-align: center;
+            background: linear-gradient(135deg, rgba(0,234,255,.10), rgba(155,108,255,.16), rgba(255,101,197,.10));
+            border: 1px solid var(--border);
+            border-radius: 26px;
+            padding: 45px 25px;
+        }
+
+        .about-founder .founder-symbol {
+            width: 85px;
+            height: 85px;
+            display: grid;
+            place-items: center;
+            margin: 0 auto 22px;
+            border-radius: 50%;
+            font-size: 2rem;
+            color: white;
+            background: linear-gradient(135deg, var(--cyan), var(--purple), var(--pink));
+        }
+
+        .about-founder h2 {
+            margin: 15px 0 8px;
+        }
+
+        .about-founder p {
+            color: var(--muted);
+            line-height: 1.8;
+        }
+
+        .about-actions {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        @media (max-width: 600px) {
+            .about-hero {
+                padding: 120px 6% 65px;
+            }
+
+            .about-section {
+                padding: 45px 6%;
+            }
+
+            .about-card {
+                padding: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="logo">KCH</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section class="about-hero">
+        <span class="about-label">DISCOVER KCHTECH MANAGEMENT</span>
+        <h1>Ideas Have No Limits.</h1>
+        <p>
+            We believe technology should do more than exist.
+            It should connect people, solve problems, inspire creativity
+            and create experiences that make a difference.
+            Welcome to KCHTech Management.
+        </p>
+        <div class="about-actions">
+            <a href="products.html" class="primary-button">Explore Our Products</a>
+            <a href="contact.html" class="secondary-button">Let's Talk</a>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="about-section-heading">
+            <span class="about-label">WHO WE ARE</span>
+            <h2>More Than Technology</h2>
+        </div>
+
+        <div class="about-story">
+            <p>
+                KCHTech Management is a technology-driven brand focused
+                on creating digital products and providing technology
+                solutions. We bring ideas into the digital world through
+                application development, software, websites, games
+                and creative technology experiences.
+            </p>
+            <br>
+            <p>
+                Our journey is built around curiosity, continuous learning
+                and the belief that great ideas deserve the opportunity
+                to become something real.
+            </p>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="about-section-heading">
+            <span class="about-label">OUR DIRECTION</span>
+            <h2>Vision & Mission</h2>
+            <p>What guides our work and shapes the future we want to build.</p>
+        </div>
+
+        <div class="about-grid">
+            <article class="about-card">
+                <div class="about-icon">&#127919;</div>
+                <h3>Our Vision</h3>
+                <p>
+                    To grow into a recognised technology brand known
+                    for meaningful innovation, creative digital products
+                    and experiences that positively impact everyday life.
+                </p>
+            </article>
+
+            <article class="about-card">
+                <div class="about-icon">&#128640;</div>
+                <h3>Our Mission</h3>
+                <p>
+                    To transform ideas into useful, engaging and accessible
+                    digital experiences through thoughtful development,
+                    creativity and continuous improvement.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="about-section-heading">
+            <span class="about-label">WHAT WE STAND FOR</span>
+            <h2>Our Core Values</h2>
+            <p>The principles behind every idea, product and experience.</p>
+        </div>
+
+        <div class="about-grid">
+            <article class="about-card">
+                <div class="about-icon">&#128161;</div>
+                <h3>Innovation</h3>
+                <p>We remain curious, explore possibilities and look for better ways to solve problems.</p>
+            </article>
+
+            <article class="about-card">
+                <div class="about-icon">&#127912;</div>
+                <h3>Creativity</h3>
+                <p>We value original thinking and thoughtful design in the experiences we create.</p>
+            </article>
+
+            <article class="about-card">
+                <div class="about-icon">&#129309;</div>
+                <h3>Integrity</h3>
+                <p>We believe in honesty, responsibility and treating people with respect.</p>
+            </article>
+
+            <article class="about-card">
+                <div class="about-icon">&#11088;</div>
+                <h3>Excellence</h3>
+                <p>We aim to improve our work, pay attention to details and keep learning.</p>
+            </article>
+
+            <article class="about-card">
+                <div class="about-icon">&#128274;</div>
+                <h3>Trust & Privacy</h3>
+                <p>We recognise the importance of protecting user information and building responsibly.</p>
+            </article>
+
+            <article class="about-card">
+                <div class="about-icon">&#127760;</div>
+                <h3>Accessibility</h3>
+                <p>We value digital experiences that are understandable, welcoming and easy to use.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="about-section-heading">
+            <span class="about-label">OUR WORK</span>
+            <h2>What We're Building</h2>
+            <p>Different ideas. One commitment to purposeful digital experiences.</p>
+        </div>
+
+        <div class="about-grid">
+            <article class="about-card">
+                <div class="about-icon">&#128172;</div>
+                <h3>Digital Connections</h3>
+                <p>Creating platforms that help people discover one another and communicate.</p>
+                <a href="kornectt.html" class="product-link">Discover Kornectt &rarr;</a>
+            </article>
+
+            <article class="about-card">
+                <div class="about-icon">&#127918;</div>
+                <h3>Games & Entertainment</h3>
+                <p>Exploring interactive games and entertaining digital experiences.</p>
+                <a href="products.html" class="product-link">Explore Products &rarr;</a>
+            </article>
+
+            <article class="about-card">
+                <div class="about-icon">&#128187;</div>
+                <h3>Technology Solutions</h3>
+                <p>Developing websites, applications and digital solutions around real ideas.</p>
+                <a href="services.html" class="product-link">View Our Services &rarr;</a>
+            </article>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="about-section-heading">
+            <span class="about-label">OUR APPROACH</span>
+            <h2>From Idea to Experience</h2>
+            <p>We believe meaningful digital products begin with understanding the people who will use them.</p>
+        </div>
+
+        <div class="about-grid">
+            <article class="about-card">
+                <div class="about-icon">01</div>
+                <h3>Listen & Understand</h3>
+                <p>We start by understanding the idea, the people it serves and the problem it addresses.</p>
+            </article>
+
+            <article class="about-card">
+                <div class="about-icon">02</div>
+                <h3>Think & Create</h3>
+                <p>We explore possible solutions, useful features and thoughtful experiences.</p>
+            </article>
+
+            <article class="about-card">
+                <div class="about-icon">03</div>
+                <h3>Build & Test</h3>
+                <p>We turn concepts into working digital experiences and review how they perform.</p>
+            </article>
+
+            <article class="about-card">
+                <div class="about-icon">04</div>
+                <h3>Learn & Improve</h3>
+                <p>We believe improvement is continuous, even after a product is released.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="about-section-heading">
+            <span class="about-label">LEADERSHIP</span>
+            <h2>The Vision Behind KCHTech</h2>
+        </div>
+
+        <div class="about-founder">
+            <div class="founder-symbol">&#9733;</div>
+            <span class="about-label">FOUNDER & CEO</span>
+            <h2>ONYEDIKACHUKWU [KACHY]</h2>
+            <p>Chief Executive Officer (CEO)</p>
+            <br>
+            <p>
+                Leading the vision and direction of KCHTech Management,
+                with a focus on creativity, technology, product development
+                and building meaningful digital experiences.
+            </p>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="about-founder">
+            <span class="about-label">THE KCHTECH PROMISE</span>
+            <h2>We Build With Purpose.</h2>
+            <p>
+                Every great digital experience starts with an idea.
+                Our commitment is to keep exploring, learning and building
+                with creativity, responsibility and purpose.
+            </p>
+
+            <div class="about-actions">
+                <a href="products.html" class="primary-button">Explore Products</a>
+                <a href="services.html" class="secondary-button">Our Services</a>
+                <a href="contact.html" class="secondary-button">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 KCHTech Management. All rights reserved.</p>
+    <a href="about.html">About KCH</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
+</footer>
+
+</body>
+</html>
